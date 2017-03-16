@@ -76,6 +76,7 @@
     self.renderer = [builder build];
     glkViewController.rendererDelegate = self.renderer;
     
+    
     [glkViewController.view setFrame:parentView.frame];
     
     [parentView insertSubview:glkViewController.view atIndex:0];
